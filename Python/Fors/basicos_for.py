@@ -20,9 +20,17 @@ print(suma) #debe mostrar 15
 #CUENTA REGRESIVA
 for i in range(10, -1, -1):
     print(i)
-'''
+
+    #Imprime solo los números impares del 1 al 10 usando for.
 for i in range(1, 11):
     if i % 2 != 0:
         print(i)
-    
-    
+ # también puede ser así, y más fácil:
+for i in range(1, 11, 2): 
+    print(i)
+    '''
+#Pide un número al usuario e imprime los números del 1 hasta ese número usando for.
+limite = int(input("Dame un límite: "))
+
+for i in range(1, limite):
+    print(i + 1) 
